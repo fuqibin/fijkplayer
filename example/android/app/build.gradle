@@ -27,7 +27,6 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
     compileSdkVersion 34  // 更新到最新版本
-    namespace 'tv.danmaku.ijk.media.fijkplayer'
 
     defaultConfig {
         applicationId "com.befovy.fijkplayer.demo"
