@@ -26,15 +26,15 @@ apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
+    namespace 'tv.danmaku.ijk.media.fijkplayer'
     compileSdkVersion 34  // 更新到最新版本
 
     defaultConfig {
         applicationId "com.befovy.fijkplayer.demo"
         minSdkVersion 21
         targetSdkVersion 34  // 更新到最新版本
-        versionCode flutterVersionCode.toInteger()
-        versionName flutterVersionName
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        versionCode 1
+        versionName "1.0"
     }
 
     aaptOptions {
